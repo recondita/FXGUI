@@ -70,8 +70,7 @@ public class KIOptionen extends JPanel
 			if (!start.isSelected())
 			{
 				rG.gUI.brett.spiel.ki(4, farbe, level.getValue());
-			} 
-			else
+			} else
 			{
 				rG.gUI.brett.spiel.ki(0, farbe, 0);
 			}

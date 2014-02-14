@@ -58,12 +58,12 @@ public class SwingSchnittstelle extends Schnittstelle
 
 	public void stirb(int typ)
 	{
-		brett.gUI.stirb(typ);
+		//brett.gUI.stirb(typ);
 	}
 
 	public void stirb(int[] geworfen)
 	{
-		brett.gUI.stirb(geworfen);
+		//brett.gUI.stirb(geworfen);
 	}
 
 	public void chaterhalten(String s) throws Exception
@@ -76,7 +76,7 @@ public class SwingSchnittstelle extends Schnittstelle
 		Figurenwahl fW = new Figurenwahl(brett.gUI, Player0());
 		brett.gUI.rG.addTab("Auswahl", fW);
 		brett.gUI.rG.setSelectedIndex(2);
-		brett.gUI.repaint();
+		//brett.gUI.update();
 		// fW.bild=Player0();
 		return fW.wahl();
 	}

@@ -60,7 +60,7 @@ public class Einstellungen extends JFrame
     
     public void start()
     {
-        this.gUI=new GUI(true);
+        this.gUI=new GUI();
         gUI.brett.spiel.ki(2,1,0);
     }
     

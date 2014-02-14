@@ -124,7 +124,7 @@ public class Figurenwahl extends JPanel implements ActionListener
 		warten = true;
 		gUI.rG.remove(2);
 		gUI.rG.setSelectedIndex(0);
-		gUI.repaint();
+		//gUI.repaint();
 	}
 
 	public int wahl()

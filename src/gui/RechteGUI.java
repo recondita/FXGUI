@@ -117,7 +117,8 @@ public class RechteGUI extends JTabbedPane
 		{
 			public void actionPerformed(ActionEvent arg0)
 			{
-				gUI.brett.spiel.logSpeichern(new MyFilter());
+				//TODO: Siehe Swing GUI
+				//gUI.brett.spiel.logSpeichern(new MyFilter());
 			}
 		});
 		kn[1][1].setText("Zug zurück");
@@ -293,7 +294,7 @@ public class RechteGUI extends JTabbedPane
 											{
 												eingabe.setText("");
 												vbild = !vbild;
-												gUI.fullscreen(vbild);
+												//gUI.Fullscreen(vbild);
 											} else
 											{
 												if (befehl[0].equals("farbe"))
@@ -336,8 +337,6 @@ public class RechteGUI extends JTabbedPane
 
 	public void menu()
 	{
-		gUI.menu();
-		validate();
 	}
 
 	public void hilfe()
