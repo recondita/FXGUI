@@ -10,12 +10,12 @@ import spiel.Schnittstelle;
  * @author Felix Sch&uuml;tze
  * @version super
  */
-public class SwingSchnittstelle extends Schnittstelle
+public class FXSchnittstelle extends Schnittstelle
 {
 	Brett brett;
-	static SwingSchnittstelle schnittstelle;
+	static FXSchnittstelle schnittstelle;
 
-	public SwingSchnittstelle(Brett brett)
+	public FXSchnittstelle(Brett brett)
 	{
 		this.brett = brett;
 		schnittstelle = this;
@@ -48,7 +48,7 @@ public class SwingSchnittstelle extends Schnittstelle
 
 	static public void eingabe(int x, int y)
 	{
-		SwingSchnittstelle.schnittstelle.klick(x, y);
+		FXSchnittstelle.schnittstelle.klick(x, y);
 	}
 
 	public void blink()

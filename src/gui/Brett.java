@@ -13,7 +13,7 @@ import javafx.scene.layout.StackPane;
  */
 public class Brett extends GridPane
 {
-	public SwingSchnittstelle spiel;
+	public FXSchnittstelle spiel;
 	private Feld[][] aKnopf;
 	private StackPane[][] stapel;
 	private GridPane[] panel;
@@ -29,7 +29,7 @@ public class Brett extends GridPane
 	{
 		// System.out.println("Checkpoint 3");
 		this.gUI = gUI;
-		spiel = new SwingSchnittstelle(this);
+		spiel = new FXSchnittstelle(this);
 		spielfeldBauen(true);
 		groesse();
 		aktualisieren();

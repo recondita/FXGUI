@@ -15,10 +15,10 @@ import javafx.scene.input.MouseEvent;
  */
 public class Feld extends Button
 {
-	private SwingSchnittstelle spiel;
+	private FXSchnittstelle spiel;
     private int posx;
     private int posy;
-    public Feld(final SwingSchnittstelle spiel,final int x,final int y)
+    public Feld(final FXSchnittstelle spiel,final int x,final int y)
     {
         this.spiel=spiel;
         this.posx=x;

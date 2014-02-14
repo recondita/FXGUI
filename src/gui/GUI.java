@@ -15,7 +15,7 @@ import javafx.stage.Stage;
  */
 public class GUI extends Application
 {
-	SwingSchnittstelle schnittstelle;
+	FXSchnittstelle schnittstelle;
 	Brett brett;
 	BorderPane pane=new BorderPane();
 	FlowPane unten = new FlowPane();
